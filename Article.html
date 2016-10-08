@@ -7,11 +7,35 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+  </script>
   <style>
+
+  /** Header **/
     .vertical {
       text-align: center;
       margin-top: 15px;
   }
+
+  /** Footer **/
+  footer{
+    width: 100%;
+    background-color: #424242;
+    text-align:center;
+  }
+
+  footer h6, footer div{
+    padding: 0.5%;
+    color: #E0E0E0;
+  }
+
+  .img_height{
+    height:40px;
+  }
+
 
   </style>
 </head>
@@ -57,6 +81,26 @@
 
     </div>
   </nav>
+
+  <!-- Footer -->
+  <footer class="container-fluid text-center">
+
+                <h6> &copy; Copyright 2016 - Geekyowl.com, Baroda, India.
+                <br>
+
+                Geeky owl is a blog about UI/UX practices and Internet Security.</h3>
+
+          <div class="row">
+                  <div class="col-sm-4"></div>
+                  <div class="col-sm-1"><a href="https://www.facebook.com/geekyowlblog/" data-toggle="tooltip" title="Facebook"><img class="img_height" src="assets/images/fb_icon.png"></a></div>
+                  <div class="col-sm-1"><a href="https://twitter.com/_geekyowl/followers" data-toggle="tooltip" title="Twitter"><img class="img_height" src="assets/images/twitter_icon.png"></a></div>
+                  <div class="col-sm-1"><a href="#" data-toggle="tooltip" title="Instagram"> <img class="img_height" src="assets/images/ig_icon.png"></a></div>
+                  <div class="col-sm-1"><a href="#" data-toggle="tooltip" title="Google Plus"><img class="img_height" src="assets/images/gplus_icon.png"></div>
+                  <div class="col-sm-4"></div>
+        </div>
+      </div>
+
+  </footer>
 
 
 </body>
