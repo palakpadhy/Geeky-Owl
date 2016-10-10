@@ -1,0 +1,160 @@
+/** Header **/
+  .vertical {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/** Main **/
+  .uiux{
+    background-image:url("assets/images/back.jpg");
+  }
+
+  .summary {
+      background-color: #E0E0E0;
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-top: 40px;
+      padding-bottom: 40px;
+  }
+
+  .pad2{
+      padding: 0.5%;
+  }
+
+  .white{
+    background-color: #fff;
+    padding: 10px;
+  }
+
+  /**Follow Us**/
+
+  .parallax {
+      /* The image used */
+      background-image: url('assets/images/three.png');
+      /* Full height */
+      height: 100%;
+      opacity: 1.2;
+
+      /* Create the parallax scrolling effect */
+      background-attachment:fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .parallax2 {
+      /* The image used */
+      background-image: url('assets/images/four.png');
+      /* Full height */
+      height: 100%;
+      opacity: 1.2;
+
+      /* Create the parallax scrolling effect */
+      background-attachment:fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+
+  .headfont{
+    font-size: 20px;
+    color: #000;
+    text-decoration: underline;
+  }
+
+  .socialborder{
+    border-style:solid;
+    border-color: #000;
+    border-width: 0px 1px 0px 0px;
+    padding: 0%;
+  }
+
+
+  .followus{
+  width: 30%;
+  border: 8.5px double #000;
+  }
+
+
+  /** Snapchat **/
+  .followsnap{
+    font-family: 'Nothing You Could Do', cursive;
+    font-weight: 900;
+    font-size: 30px;
+    color: #000;
+  }
+
+  .followgo{
+    font-size: 35px;
+    color: #000;
+  }
+
+  .followsnapimage{
+    height: 200px;
+    width:180px;
+  }
+
+  /** Footer **/
+  footer{
+    width: 100%;
+    background-color: #424242;
+    text-align:center;
+  }
+
+  footer h6, footer div{
+    padding: 0.5%;
+    color: #E0E0E0;
+  }
+
+  .img_height{
+    height:40px;
+  }
+
+  .outline{
+    font-weight: 900;
+  }
+
+
+/** Contact */
+
+.frmcontrol{
+  border-radius:10px;
+  border:1px solid;
+  font-size: 15.5px;
+  color:grey;
+}
+
+.btnsend .btnback{
+  border-radius:10px;
+  border:1px solid;
+  color:grey; width:30%;
+}
+
+/** Personal */
+.contactbtn{
+  border-radius:10px;
+  border:1px solid;
+  color:grey;
+  width:100px;
+}
+
+.abtbtn{
+  border-radius:10px;
+  border:1px solid;
+  color:grey;
+  width:100px;
+}
+
+/** About */
+.desc{
+  height:200%;
+  width:100%;
+  border-radius:10px;
+  border:1px solid;
+  color:grey;
+}
+
+.backbutton{
+  border-radius:10px;
+  border:1px solid;
+  color:grey;
+  width:30%;
+}
